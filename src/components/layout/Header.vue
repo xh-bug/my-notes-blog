@@ -20,7 +20,7 @@
 
 
     <router-link to="/about">
-      关于
+      简历
     </router-link>
 
 
