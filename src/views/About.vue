@@ -404,7 +404,7 @@ const projects = [
     role: '负责人',
     tagType: 'danger' as const,
     desc: '借用归还、报废处置、试验检测、库存盘点、资产台账、库存管理、数据统计分析等多个核心业务模块',
-    tech: ["Vue2" +" Vue- Router" + "Vuex" + "Axios" + "ECharts" + "Element- UI"],
+    tech: ["Vue2" ," Vue- Router" ,"Vuex" ,"Axios" , "ECharts" ,"Element- UI"],
   },
     {
     name: '电力 e 链门户网',
@@ -418,7 +418,7 @@ const projects = [
     role: '核心开发',
     tagType: 'warning' as const,
     desc: '电力系统各级专业仓库。主要覆盖物资借用、归还、报废处置、试验检测、库存盘点全流程仓储业务',
-    tech: ["Vue2" + "Vue- Router" + "Vuex" + "Axios" + "Vant"],
+    tech: ["Vue2","Vue- Router" ,"Vuex" , "Axios" , "Vant"],
   },
   {
     name: '青海电力智慧供应链',
