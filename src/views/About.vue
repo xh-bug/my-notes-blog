@@ -291,7 +291,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useRouter } from 'vue-router'
 import { ElMessage } from 'element-plus'
 import {
   Location,
@@ -308,15 +307,12 @@ import {
   VideoPlay,
   ChatDotRound,
   ChatLineRound,
-  Edit,
   ArrowRight,
   Document,
   Star,
   Sunny,
-  Trophy,
 } from '@element-plus/icons-vue'
 
-const router = useRouter()
 const wechatVisible = ref(false)
 
 // 基础信息
@@ -490,13 +486,6 @@ function handleContact(c: typeof contacts[number]) {
   }
 }
 
-function openGitee() {
-  window.open('https://gitee.com/jx-xh/vue3.app', '_blank')
-}
-
-function goNotes() {
-  router.push('/notes')
-}
 </script>
 
 <style scoped>
