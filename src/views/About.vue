@@ -441,7 +441,7 @@ const siteStats = [
 // 兴趣爱好
 const hobbies = [
 
-  { title: '游泳',   desc: '一周两次 5 公里，配速 6\'30"，解压首选。',     icon: Bicycle,   bg: 'linear-gradient(135deg, #f59e0b, #f43f5e)' },
+  { title: '游泳',   desc: '一周两次 1公里，配速 40-45min。',     icon: Bicycle,   bg: 'linear-gradient(135deg, #f59e0b, #f43f5e)' },
 { title: '打游戏', desc: '主机 + PC 党，主玩动作和 RPG。',              icon: VideoPlay, bg: 'linear-gradient(135deg, #0ea5e9, #22d3ee)' },
 { title: '看论坛', desc: 'V2EX、NodeSeek 日常摸鱼潜水。',              icon: Camera,     bg: 'linear-gradient(135deg, #14b8a6, #84cc16)' },
 { title: '刷剧',   desc: '睡前刷一集，主追悬疑和科幻。',                icon: VideoPlay,        bg: 'linear-gradient(135deg, #ec4899, #f97316)' },
