@@ -72,7 +72,7 @@ const focuses = [
 
 const stack = [
   'Vue 3',
-  'React 18',
+  // 'React 18',
   'TypeScript',
   'Node.js',
   'Vite',
