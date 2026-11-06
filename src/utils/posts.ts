@@ -38,6 +38,7 @@ export const posts: PostMeta[] = Object.entries(modules)
       .replace(/^.*\/posts\//, '')
       .replace(/\.md$/, '')
       .split('/')
+      // 修改一下
     const slug = segments.pop() || ''
     const dir = segments.join('/') || 'other'
 
